@@ -1,0 +1,10 @@
+# 本项目只用 Python 标准库，不需要安装任何第三方依赖。
+#
+# 运行程序：
+#     python3 main.py -n 10 -r 10
+#
+# 跑单元测试：
+#     python3 -m unittest discover -s tests -v
+#
+# 性能分析（可选，装了 pillow 会额外导出一张 PNG 图）：
+#     python3 profile_report.py

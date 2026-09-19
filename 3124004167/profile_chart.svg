@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="416" viewBox="0 0 1320 416">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="PingFang SC, Helvetica, Arial, sans-serif">
+<text x="20" y="34" font-size="18" font-weight="bold">性能分析：生成 10000 道题目，共 0.40 秒</text>
+<text x="20" y="54" font-size="12" fill="#666">cProfile 采样 · 命令行参数 -n 10000 · 时间单位：秒（s）</text>
+<text x="235" y="86" font-size="14" font-weight="bold">自身耗时 tottime</text>
+<text x="227" y="114" font-size="12" text-anchor="end">build_tree</text>
+<rect x="235" y="100" width="260.0" height="18" rx="3" fill="#3a7afe"/>
+<text x="503.0" y="114" font-size="12" fill="#333">0.036s · 10028 次</text>
+<text x="227" y="146" font-size="12" text-anchor="end">__new__</text>
+<rect x="235" y="132" width="221.9" height="18" rx="3" fill="#3a7afe"/>
+<text x="464.86961487064644" y="146" font-size="12" fill="#333">0.031s · 66746 次</text>
+<text x="227" y="178" font-size="12" text-anchor="end">_randbelow_with_getrandbi…</text>
+<rect x="235" y="164" width="218.5" height="18" rx="3" fill="#3a7afe"/>
+<text x="461.4924589418165" y="178" font-size="12" fill="#333">0.030s · 119479 次</text>
+<text x="227" y="210" font-size="12" text-anchor="end">&lt;built-in method builtins…</text>
+<rect x="235" y="196" width="199.1" height="18" rx="3" fill="#3a7afe"/>
+<text x="442.07399593519796" y="210" font-size="12" fill="#333">0.027s · 60148 次</text>
+<text x="227" y="242" font-size="12" text-anchor="end">format_fraction</text>
+<rect x="235" y="228" width="176.2" height="18" rx="3" fill="#3a7afe"/>
+<text x="419.1546739980269" y="242" font-size="12" fill="#333">0.024s · 40046 次</text>
+<text x="227" y="274" font-size="12" text-anchor="end">randrange</text>
+<rect x="235" y="260" width="166.5" height="18" rx="3" fill="#3a7afe"/>
+<text x="409.53694374525713" y="274" font-size="12" fill="#333">0.023s · 94008 次</text>
+<text x="227" y="306" font-size="12" text-anchor="end">__hash__</text>
+<rect x="235" y="292" width="150.3" height="18" rx="3" fill="#3a7afe"/>
+<text x="393.2552177678589" y="306" font-size="12" fill="#333">0.021s · 60148 次</text>
+<text x="227" y="338" font-size="12" text-anchor="end">random_operand</text>
+<rect x="235" y="324" width="136.4" height="18" rx="3" fill="#3a7afe"/>
+<text x="379.39050623001845" y="338" font-size="12" fill="#333">0.019s · 38950 次</text>
+<text x="885" y="86" font-size="14" font-weight="bold">累计耗时 cumtime</text>
+<text x="877" y="114" font-size="12" text-anchor="end">make_problems</text>
+<rect x="885" y="100" width="260.0" height="18" rx="3" fill="#f2994a"/>
+<text x="1153.0" y="114" font-size="12" fill="#333">0.394s · 1 次</text>
+<text x="877" y="146" font-size="12" text-anchor="end">random_expression</text>
+<rect x="885" y="132" width="152.5" height="18" rx="3" fill="#f2994a"/>
+<text x="1045.475660003067" y="146" font-size="12" fill="#333">0.231s · 10028 次</text>
+<text x="877" y="178" font-size="12" text-anchor="end">build_tree</text>
+<rect x="885" y="164" width="143.2" height="18" rx="3" fill="#f2994a"/>
+<text x="1036.1507121245963" y="178" font-size="12" fill="#333">0.217s · 10028 次</text>
+<text x="877" y="210" font-size="12" text-anchor="end">random_operand</text>
+<rect x="885" y="196" width="48.7" height="18" rx="3" fill="#f2994a"/>
+<text x="941.7325357817343" y="210" font-size="12" fill="#333">0.074s · 38950 次</text>
+<text x="877" y="242" font-size="12" text-anchor="end">__hash__</text>
+<rect x="885" y="228" width="35.7" height="18" rx="3" fill="#f2994a"/>
+<text x="928.6500924208143" y="242" font-size="12" fill="#333">0.054s · 60148 次</text>
+<text x="877" y="274" font-size="12" text-anchor="end">randrange</text>
+<rect x="885" y="260" width="35.5" height="18" rx="3" fill="#f2994a"/>
+<text x="928.5461858694749" y="274" font-size="12" fill="#333">0.054s · 94008 次</text>
+<text x="877" y="306" font-size="12" text-anchor="end">apply_op</text>
+<rect x="885" y="292" width="28.2" height="18" rx="3" fill="#f2994a"/>
+<text x="921.188162799191" y="306" font-size="12" fill="#333">0.043s · 22020 次</text>
+<text x="877" y="338" font-size="12" text-anchor="end">format_fraction</text>
+<rect x="885" y="324" width="28.2" height="18" rx="3" fill="#f2994a"/>
+<text x="921.185557093513" y="338" font-size="12" fill="#333">0.043s · 40046 次</text>
+</g></svg>
