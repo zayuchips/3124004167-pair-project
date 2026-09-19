@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.DS_Store
+
+# 程序运行时生成的文件（每次运行都会被覆盖，不用提交）
+# 开头的斜杠表示只匹配本文件夹（3124004167/）下的这些文件，
+# 不会误伤 样例/ 里同名的演示文件
+/Exercises.txt
+/Answers.txt
+/Grade.txt
+/*.prof
+/profile_chart.svg.png
+/profile_report_output.txt
